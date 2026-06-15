@@ -1,0 +1,10 @@
+marks=[]
+marks.append(int(input("Enter a mark: ")))
+marks.append(int(input("Enter another mark: ")))
+marks.append(int(input("Enter one more mark: ")))
+marks.append(int(input("Enter one last mark: ")))
+marks.append(int(input("Enter a mark: ")))
+marks.append(int(input("Enter anothea mark: ")))
+marks.append(int(input("Enter one mora mark: ")))
+marks.sort()
+print(marks)
