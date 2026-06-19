@@ -1,12 +1,18 @@
 class Employee:
-    language="Py"
+    language="Pythong"
     salary=12345
 
+    def getInfo(this):
+        print(f"The langugae is {this.language} and Salary is {this.salary} ")
+    
+    @staticmethod
+    def greet():
+        print(f"Hello Brother")
+
 harry=Employee()
-harry.name="Harry"
-print(harry.name,harry.language,harry.salary)
+# Employee.getInfo(harry)
+harry.getInfo()
+
+harry.greet()
 
 
-aniket=Employee()
-aniket.name="Aniket"
-print(aniket.name,aniket.language,aniket.salary)
